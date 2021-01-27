@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dental</title>
+</head>
+<body>
+    <header>
+        <div class="sub-nav">
+            <div class="sub-nav-info">
+                <img src="/icons/phone.svg" alt="phone">
+                <span>(11) 989112408</span>
+            </div>
+            <div class="sub-nav-info" id="subnav-adress">
+                <img src="/icons/location.svg" alt="phone">
+                <span>Vitae aliquam odio, 89, São Paulo</span>
+            </div>
+            <div class="sub-nav-info" id="subnav-email">
+                <img src="/icons/email.svg" alt="phone">
+                <span>tiagolpires@hotmail.com</span>
+            </div>
+        </div>
+        <div class="navbar-container">
+            <div class="navbar">
+                <img src="/icons/logo.svg" alt="">
+                <div class="menu-toggle" onclick="MenuToggle()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="m-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a class="contact-header" href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <span onclick="MenuToggle()">X</span>
+            <nav class="s-nav">
+                <ul class="mobile-nav-list">
+                    <li>Home</li>
+                    <li>Serviços</li>
+                    <li>Quem Somos</li>
+                    <li id="li-lastchild">Contato</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-container">
+            <div class="hero-main-text">
+                <h1>Agende uma consulta<br>
+                    Em segundos
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet. Vivamus placerat gravida nisl, quis.
+                </p>
+                <button>Agendar </button>
+            </div>
+            <img src="/images/photo-1.png">
+        </section>
+        <section class="services-container">
+            <div class="services">
+                <div class="service-card">
+                    <img src="/icons/teeth.svg" alt="teeth">
+                    <h2>Estético</h2>
+                </div>
+                <div class="service-card">
+                    <img src="/icons/teeth.svg" alt="teeth">
+                    <h2>Clareamento</h2>
+                </div>
+                <div class="service-card">
+                    <img src="/icons/teeth.svg" alt="teeth">
+                    <h2>Implante</h2>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+                <div class="about-text">
+                    <h3>Quem Somos</h3>
+                    <p>Aliquam eros lorem, lacinia in dolor vel, molestie efficitur velit. Aenean sit amet nunc sit amet ligula egestas fermentum eget ac nisl. Sed pulvinar ultricies leo non ullamcorper. Integer pretium ipsum vitae felis rhoncus, eget aliquet tellus finibus. In nec sem accumsan.</p>
+                </div>
+                <img src="/images/photo-1.png">
+        </section>
+        <section class="clinic">
+            <h4>Nosso Consultório</h4>
+            <div class="clinic-galery">
+                <img src="/images/clinic-1.jpg" alt="">
+                <img src="/images/clinic-2.jpg" alt="">
+                <img src="/images/clinic-3.jpg" alt="">
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact-info">
+                <div class="contact-text">
+                    <h5>Entre em Contato</h5>
+                    <span>Fale conosco pelo nossos meios de comunicação</span>
+                </div>
+                <div>
+                    <div class="contact-phone">
+                        <img style="width: 44px; height: 44px; margin: 10px 0px;" src="/icons/phone.svg" alt="">
+                        <span>(11) 989112408</span>
+                    </div>
+                    <div class="contact-phone">
+                        <img style="width: 44px; height: 44px; margin: 10px 0px;" src="/icons/location.svg" alt="">
+                        <span> Vitae aliquam odio, 89, São Paulo</span>
+                    </div>
+                    <div class="contact-phone">
+                        <img style="width: 44px; height: 44px; margin: 10px 0px;" src="/icons/email.svg" alt="">
+                        <span>tiagolpires@hotmail.com</span>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <img style="width: 45px; height: 45px;" src="/icons/whatsapp.svg" alt="">
+                    <img style="width: 45px; height: 45px;" src="/icons/instagram.svg" alt="">
+                    <img style="width: 45px; height: 45px;" src="/icons/facebook.svg" alt="">  
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <div class="contact-form-info">
+                        <span>Nome</span>
+                        <input type="text">
+                    </div>
+                    <div class="contact-form-info">
+                        <span>E-mail</span>
+                        <input type="text">
+                    </div>
+                    <div class="contact-form-info">
+                        <span>Mensagem</span>
+                        <input style="height: 100px; margin-bottom: 20px;" type="text">
+                    </div>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <span>© 2020 Dental. All rights reserved</span>
+            <img id="footer-dental-logo" src="/icons/logo-white.svg" alt="dental-logo">
+            <div class="footer-social">
+                <img src="/icons/whatsapp.svg" alt="" style="width: 30px;">
+                <img src="/icons/instagram.svg" alt="" style="width: 30px;">
+                <img src="/icons/facebook.svg" alt="" style="width: 30px;">
+            </div>
+        </div>
+    </footer>
+    <script>
+        const MenuToggle = () => {
+            const mobileNav = document.querySelector(".mobile-nav")
+            mobileNav.classList.toggle("on")
+        }
+    </script>
+</body>
+</html>
